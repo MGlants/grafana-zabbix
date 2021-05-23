@@ -2,7 +2,7 @@ const GithubClient = require('./githubClient');
 const fs = require('fs');
 const path = require('path');
 
-const GRAFANA_ZABBIX_OWNER = 'alexanderzobnin';
+const GRAFANA_ZABBIX_OWNER = 'MGlants';
 const GRAFANA_ZABBIX_REPO = 'grafana-zabbix';
 
 const github = new GithubClient(GRAFANA_ZABBIX_OWNER, GRAFANA_ZABBIX_REPO, true);
